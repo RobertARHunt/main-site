@@ -1,0 +1,10 @@
+.banner {
+    text-align: center;
+    background-color: orange;
+    /* padding-bottom: 10px; */
+}
+
+.top-logo {
+    height: 100px;
+    margin: 10px;
+}
