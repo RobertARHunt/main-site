@@ -28,14 +28,6 @@
   align-self: center;
 }
 
-.website-design {
-  text-align: center;
-  border: 2px solid black;
-  padding: 10px;
-  margin: 0;
-  background-color: lightblue;
-}
-
 .social-media {
   display: flex;
   align-items: center;
@@ -51,11 +43,6 @@
 .social-media > a {
   width: 25%;
   text-align: center;
-}
-
-.website-design-title {
-  border-bottom: 1px solid grey;
-  font-size: larger;
 }
 
 .secondary-banner {
@@ -87,4 +74,23 @@
 .gmail {
   color: lightgrey;
   font-size: larger;
+}
+
+.services-container {
+  text-align: center;
+  border: 2px solid black;
+  padding: 15px;
+  margin: 0;
+  background-color: lightblue;
+}
+
+.services-container > div > h2 {
+  background-color: orange;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.services-container > div > img {
+  width: 50%;
 }
